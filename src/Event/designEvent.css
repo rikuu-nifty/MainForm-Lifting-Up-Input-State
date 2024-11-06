@@ -1,0 +1,50 @@
+.item-list-app {
+    background-color: #212121; /* Dark grey background for the app */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Deeper shadow for depth */
+    padding: 20px; /* Padding around the container */
+}
+
+h2 {
+    color: #e0e0e0; /* Light grey text color */
+}
+
+.form-control {
+    border-radius: 4px; /* Rounded corners for inputs */
+    border: 1px solid #424242; /* Darker grey border */
+    background-color: #333333; /* Dark input background */
+    color: #e0e0e0; /* Light text color for inputs */
+}
+
+.btn-success {
+    background-color: #66bb6a; /* Green for Add/Update button */
+    color: #ffffff; /* White text */
+}
+
+.btn-warning {
+    background-color: #ffa726; /* Orange for Edit button */
+    color: #ffffff; /* White text */
+}
+
+.btn-danger {
+    background-color: #ef5350; /* Red for Delete button */
+    color: #ffffff; /* White text */
+}
+
+.list-group-item {
+    background-color: #424242; /* Dark grey background for items */
+    border: 1px solid #616161; /* Slightly lighter grey border */
+    border-radius: 4px; /* Rounded corners */
+    margin-bottom: 10px; /* Space between items */
+    transition: background-color 0.3s; /* Smooth background change */
+}
+
+.list-group-item:hover {
+    background-color: #616161; /* Lighter grey on hover */
+}
+
+.item-text {
+    flex-grow: 1; /* Allow text to take up available space */
+    cursor: pointer; /* Pointer cursor for clickable text */
+    color: #e0e0e0; /* Light grey text color */
+}
